@@ -4,10 +4,10 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
 // Import your screens
-import WelcomeScreen from "./screens/WelcomeScreen";
-import LoginScreen from "./screens/LoginScreen";
-import RegisterScreen from "./screens/RegisterScreen";
-import ForgotPasswordScreen from "./screens/ForgotPasswordScreen";
+import WelcomeScreen from "./Components/WelcomeScreen";
+import LoginScreen from "./Components/LoginScreen";
+import RegisterScreen from "./Components/RegisterScreen";
+import ForgotPasswordScreen from "./Components/ForgotPasswordScreen";
 
 const Stack = createStackNavigator();
 

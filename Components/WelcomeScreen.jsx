@@ -74,17 +74,18 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   buttonContainer: {
-    flex: 1,
+    display: "flex",
+    flexDirection: "row",
     width: "100%",
-    justifyContent: "center",
+    justifyContent: "space-around",
     alignItems: "center",
     paddingBottom: 40,
   },
   loginButton: {
     backgroundColor: "#0033CC",
     paddingVertical: 15,
-    paddingHorizontal: 100,
-    borderRadius: 30,
+    paddingHorizontal: 50,
+    borderRadius: 20,
     marginBottom: 15,
   },
   loginButtonText: {
@@ -96,8 +97,8 @@ const styles = StyleSheet.create({
     borderColor: "#0033CC",
     borderWidth: 2,
     paddingVertical: 15,
-    paddingHorizontal: 100,
-    borderRadius: 30,
+    paddingHorizontal: 50,
+    borderRadius: 20,
   },
   registerButtonText: {
     color: "#0033CC",
