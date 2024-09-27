@@ -22,7 +22,7 @@ export default function LoginScreen({ navigation }) {
 
       <TextInput placeholder="Password" style={styles.input} secureTextEntry />
 
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate("ForgotPassword")}>
         <Text style={styles.forgotPassword}>Forgot your password?</Text>
       </TouchableOpacity>
 
